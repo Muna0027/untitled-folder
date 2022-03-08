@@ -11,7 +11,7 @@ let numFloat = parseFloat(10)
 console.log(numFloat)
 
 let words = 'python and jargon'
-console.log(words.includes('on'))
+console.log(words.indexOf('on'))
 
 const randNum = Math.floor(Math.random() * 101)
 console.log(randNum)
